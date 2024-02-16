@@ -16,7 +16,7 @@ class GifWidget(QWidget):
         self.initUI()
 
     def quit(self):
-        QApplication.quit()
+        sys.exit(1)
 
     def initUI(self):
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.SubWindow)

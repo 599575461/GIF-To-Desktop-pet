@@ -1,2 +1,6 @@
 
 .vscode/settings.json
+main.build
+main.dist
+main.onefile-build
+gif.gif
